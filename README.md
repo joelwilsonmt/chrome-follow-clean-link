@@ -1,6 +1,11 @@
 # chrome-follow-clean-link
 Chrome Extension for removing URL parameters from links
 
+Enables a context menu option to "Open clean link in new tab"
+or listens for keyboard shortcut `metaKey + altKey + Click` on a link to open the link in a new tab and remove URL parameters
+
+The extension first loads the page, then reloads the page without UTM parameters. Thus, tracking information is still captured, but further navigation within that tab is not tracked by UTMs.
+
 To install:
 Easy: Download `/dist` folder, open [chrome://extensions](chrome://extensions), enable Developer mode, and drag dist folder to page
 
