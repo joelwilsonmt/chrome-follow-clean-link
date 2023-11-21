@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build && npm run zip",
+    "zip": "cd dist && bestzip ../follow-clean-link.zip *",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -12,6 +13,7 @@
     "@types/chrome": "^0.0.252",
     "i": "^0.3.7",
     "typescript": "^4.5.4",
-    "vite": "^2.9.15"
+    "vite": "^2.9.15",
+    "zip-lib": "^0.7.3"
   }
 }

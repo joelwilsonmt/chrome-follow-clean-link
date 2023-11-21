@@ -7,7 +7,8 @@ or listens for keyboard shortcut `metaKey + altKey + Click` on a link to open th
 The extension first loads the page, then reloads the page without UTM parameters. Thus, tracking information is still captured, but further navigation within that tab is not tracked by UTMs.
 
 To install:
-Easy: Download `/dist` folder, open [chrome://extensions](chrome://extensions), enable Developer mode, and drag dist folder to page
+
+Easy: Download `follow-clean-link.zip` and unzip it, open [chrome://extensions](chrome://extensions), enable Developer mode, and the unzipped folder to the page
 
 In case I haven't built before pushing:
 - clone repository
