@@ -1,0 +1,17 @@
+{
+  "name": "chrome-follow-clean-link",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "latest",
+    "@types/chrome": "^0.0.252",
+    "i": "^0.3.7",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.15"
+  }
+}

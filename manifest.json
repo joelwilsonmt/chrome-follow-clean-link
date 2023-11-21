@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Follow Clean Link",
+  "version": "1.0.0",
+  "permissions": ["contextMenus", "tabs", "scripting", "http://*/*"],
+  "background": {
+    "service_worker": "index.ts"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content-script.js"
+      ],
+      "media": []
+    }
+  ],
+  "icons": {
+    "128": "images/soap.png"
+  }
+}
